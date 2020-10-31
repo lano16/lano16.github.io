@@ -15,7 +15,7 @@ $(document).ready(function () {
 
         //фон
         var z_2 = 1 + (w / 4000000 * p);
-        $('.parallax__montain1').css('transform', `scale(${z_2})`);
+        $('.parallax__montain1').css('transform', `translate3d(0, 80px, 0) scale(${z_2})`);
 
         //правая гора 2000, 0.00005
         var hr = (w - 20) / 2000 * p_b;
