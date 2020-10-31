@@ -1,1 +1,1 @@
-# lano16.github.io
+# temirlan_mukashev.github.io
