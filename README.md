@@ -1,1 +1,1 @@
-# temirlan_mukashev.github.io
+# temirlan-mukashev.github.io
