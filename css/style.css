@@ -50,7 +50,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    .parallax__montain1 {transform: translate(0px, 100px);};
+    .parallax__montain1 {background: url("../images/b_1.jpg") top / cover no-repeat; transform: translate(0px, 100px);};
 }
 
 
