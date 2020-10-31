@@ -10,21 +10,21 @@ $(document).ready(function () {
 
         //туман
         var z_1 = 1 + (w / 10000 * p_b);
-        $('.parallax__fog').css('transform', 'translate3d(0, 80px, 0) scale(' + z_1 + ')');
+        $('.parallax__fog').css('transform', `translate3d(0, 80px, 0) scale(${z_1})`);
         $('.parallax__fog').css('opacity', o);
 
         //фон
         var z_2 = 1 + (w / 4000000 * p);
-        $('.parallax__montain1').css('transform', 'scale(' + z_2 + ')');
+        $('.parallax__montain1').css('transform', `scale(${z_2})`);
 
         //правая гора 2000, 0.00005
         var hr = (w - 20) / 2000 * p_b;
         var z_3 = 1 + (w * 0.00001 * p_b);
-        $('.parallax__montain2').css('transform', 'translate3d(' + hr + 'px, 80px, 0) scale(' + z_3 + ')');
+        $('.parallax__montain2').css('transform', `translate3d(${hr}px, 80px, 0) scale(${z_3})`);
 
         //левая гора 1500, 0.00001
         var hr2 = w / 1500 * p_b;
         var z_4 = 1 + (w * 0.00002 * p_b);
-        $('.parallax__montain3').css('transform', 'translate3d(' + hr2 + 'px, 80px, 0) scale(' + z_4 + ')');
+        $('.parallax__montain3').css('transform', `translate3d(${hr2}px, 80px, 0) scale(${z_4})`);
     });
 });
