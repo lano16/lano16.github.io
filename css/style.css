@@ -49,11 +49,6 @@ body {
     background: url("../images/b_1.jpg") center / cover no-repeat;
 }
 
-@media (max-width: 767px) {
-    .parallax__montain1 {background: url("../images/b_1.jpg") top / cover no-repeat; transform: translate(0px, 100px);};
-}
-
-
 .parallax__montain2 {
     z-index: 1;
     background: url("../images/m_2.png") right bottom / 45% no-repeat;
