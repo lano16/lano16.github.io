@@ -72,7 +72,7 @@ body {
 }
 
 @media (max-height: 550px) {
-    .parallax__montain3 {background: url("../images/m_3.png") 30% bottom / 150% 75% no-repeat;};
+    .parallax__montain3 {background: url("../images/m_3.png") 30% bottom / 140% 75% no-repeat;};
 }
 
 .parallax__fog {
